@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>上海中福会养老院</title>
+  <style>
+    
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "微软雅黑", sans-serif;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .top-nav {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .top-nav img {
+      height: 40px;
+    }
+
+    .top-nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .top-nav ul li {
+      margin: 0 10px;
+    }
+
+    .top-nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .banner {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .banner img {
+      width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .intro-section {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 30px;
+    }
+
+    .intro-section img {
+      width: 200px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .news-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .news-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .news-item {
+      width: calc(25% - 10px);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .news-item img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .bottom-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .bottom-item {
+      width: calc(33.33% - 10px);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .bottom-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header>
+    <div class="top-nav">
+		
+      <div>
+              <img src="1.png" alt="上海中福院Logo" style="vertical-align: middle;">
+              <h2 style="display: inline-block; margin: 0 0 5px 0px; color: #B32424;">上海中福院</h2>
+              
+              
+              <p style="margin: 0 0 0 50px; font-size: 15px; color: #B32424;">中国福利会老年福利发展中心</p>
+          </div>
+    
+          
+          
+      
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">机构简介</a></li>
+        <li><a href="#">联系我们</a></li>
+        <li><a href="#">新闻动态</a></li>
+        <li><a href="#">服务支持</a></li>
+        <li><a href="02.html">入院指南</a></li>
+        <li><a href="#">加入我们</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div class="banner">
+    
+    
+    <img src="15.png"       alt="养老院航拍图"> 
+  </div>
+  
+  <div class="container">
+    
+    <div class="intro-section">
+      
+      <img src="3.png" alt="人物照片"> 
+      <div class="intro-text">
+        
+        <p>上海中福会养老院依托专业团队，致力于为长者提供优质养老服务。秉持关怀理念，打造温馨、舒适、有尊严的养老环境，从生活照料到精神慰藉，全方位守护长者幸福晚年 ......</p>
+      </div>
+      
+      <img src="16.png"" alt="果蔬区"> 
+    </div>
+    <div class="news-title">院内要闻</div>
+    <div class="news-list">
+      <div class="news-item">
+        <a href="#">
+          <img src="4.png" alt="新闻1">
+          <li><a href="03.html">入院指南</a></li>
+        </a>
+      </div>
+      <div class="news-item">
+        <a href="#">
+          <img src="5.png" alt="新闻2">
+          <p>新闻标题2</p>
+        </a>
+      </div>
+      <div class="news-item">
+        <a href="#">
+          <img src="17.png" alt="新闻3">
+          <p>新闻标题3</p>
+        </a>
+      </div>
+      <div class="news-item">
+        <a href="#">
+          <img src="18.png" alt="新闻4">
+          <p>新闻标题4</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>可拖动图片展示</title>
+  <style>
+    
+    .image-scroll-container {
+      width: 100%;
+      overflow-x: scroll;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+      padding: 10px 0;
+      overflow-y: hidden;
+      scroll-behavior: smooth;
+      
+      ::-webkit-scrollbar {
+        height: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #f9f9f9;
+      }
+    }
+
+    
+    .image-item {
+      flex: 0 0 auto;
+      width: 200px;
+      text-align: center;
+    }
+
+    .image-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    
+    .image-item p {
+      margin-top: 5px;
+      font-family: "微软雅黑", sans-serif; 
+      font-size: 14px; 
+      color: #333; 
+      line-height: 1.4; 
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-scroll-container">
+    <div class="image-item">
+      <img src="6.png" alt="图片1">
+    
+    </div>
+    <div class="image-item">
+      <img src="7.png" alt="图片2">
+    
+    </div>
+    <div class="image-item">
+      <img src="8.png" alt="图片3">
+    
+    </div>
+    <div class="image-item">
+      <img src="9.png" alt="图片4">
+    
+    </div>
+    <div class="image-item">
+      <img src="10.png" alt="图片5">
+      
+    </div>
+    <div class="image-item">
+      <img src="6.png" alt="图片6">
+      
+      
+    
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+</html>
+
+
+
